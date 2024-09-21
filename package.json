@@ -15,7 +15,7 @@
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "file:nuxtjs-i18n-9.0.0-alpha.3.tgz",
+    "@nuxtjs/i18n": "https://pkg.pr.new/@nuxtjs/i18n@63fe04b",
     "@vite-pwa/assets-generator": "^0.2.6",
     "@vite-pwa/nuxt": "^0.10.5",
     "typescript": "^5.6.2",
