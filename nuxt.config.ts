@@ -56,6 +56,7 @@ export default defineNuxtConfig({
     //   runtimeOnly: true
     // },
     // trailingSlash: true,
+    skipSettingLocaleOnNavigate: true,
     debug: true,
     vueI18n: './vue-i18n.options.ts'
   }
