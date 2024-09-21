@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
+  builder: 'webpack',
   modules: ['@nuxtjs/i18n'/*, '@vite-pwa/nuxt'*/],
   i18n: {
     restructureDir: false,
