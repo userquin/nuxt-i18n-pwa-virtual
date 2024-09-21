@@ -106,14 +106,11 @@ definePageMeta({
 <style scoped>
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 1s;
-}
-.page-enter,
-.page-leave-active {
-  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
-.link-active {
-  color: rgb(51, 175, 51);
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
 }
 </style>

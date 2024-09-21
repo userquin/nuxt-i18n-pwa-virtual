@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
     compilation: {
       // jit: false,
-      // strictMessage: false,
+      strictMessage: false,
       escapeHtml: true
     },
     langDir: 'locales',
