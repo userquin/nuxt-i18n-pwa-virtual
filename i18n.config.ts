@@ -5,7 +5,12 @@ export default {
   locale: 'en',
   fallbackLocale: 'fr',
   modifiers: {
-    snakeCase: (str: string) => str.split(' ').join('-')
+    snakeCase: (str: string) => str.split(' ').join('-'),
+    pascalCase: (str: string) =>
+        str
+            .split(' ')
+            .map(s => s.slice(0, 1).toUpperCase() + s.slice(1))
+            .join('')
   },
   messages: {
     ja: {
@@ -19,4 +24,4 @@ export default {
   //   ja: ['en', 'fr', 'ja-JP'],
   //   fr: ['en', 'ja', 'fr-FR']
   // }
-} as I18nOptions
+} satisfies I18nOptions

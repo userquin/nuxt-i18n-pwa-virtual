@@ -13,5 +13,14 @@
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "file:nuxtjs-i18n-9.0.0-alpha.3.tgz",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "typescript": "^5.6.2",
+    "vite-plugin-pwa": "^0.20.5",
+    "vue-tsc": "^2.1.6",
+    "workbox-window": "^7.1.0"
   }
 }

@@ -1,27 +1,27 @@
 {
   "layouts": {
-    "title": "Page - {title}"
+    "title": "Página - {title}"
   },
   "pages": {
     "title": {
       "top": "Top",
-      "about": "About this site"
+      "about": "Acerca de este sitio"
     }
   },
   "snakeCaseText": "@.snakeCase:{'pages.title.about'}",
   "pascalCaseText": "@.pascalCase:{'pages.title.about'}",
-  "welcome": "Welcome",
-  "hello": "Hello {name} !",
+  "welcome": "Bienvenido",
+  "hello": "Hola {name} !",
   "tag": "<p>Tag</p>",
   "items": [
     {
-      "name": "apple"
+      "name": "manzana"
     },
     {
-      "name": "banana"
+      "name": "plátano"
     },
     {
-      "name": "strawberry"
+      "name": "fresa"
     }
   ]
 }

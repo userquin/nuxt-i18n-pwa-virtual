@@ -1,4 +1,5 @@
 import fr from './locales/fr.json'
+import es from './locales/es.json'
 
 export default defineI18nConfig(() => {
   const config = useRuntimeConfig()
@@ -7,6 +8,7 @@ export default defineI18nConfig(() => {
     locale: 'en',
     fallbackLocale: 'en',
     messages: {
+      es,
       ja: {
         bar: {
           buz: 'こんにちは！{name}!',
@@ -18,7 +20,12 @@ export default defineI18nConfig(() => {
     },
     modifiers: {
       // @ts-ignore
-      snakeCase: (str: string) => str.split(' ').join('-')
+      snakeCase: (str: string) => str.split(' ').join('-'),
+      pascalCase: (str: string) =>
+          str
+              .split(' ')
+              .map(s => s.slice(0, 1).toUpperCase() + s.slice(1))
+              .join('')
     },
     missingWarn: true,
     fallbackWarn: true,
